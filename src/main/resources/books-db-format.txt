@@ -1,0 +1,20 @@
+UTF     | Libraryname (UTF)
+Short   | bookCount
+----------------------------
+for i in bookCount
+    --------------
+    UTF     | title
+    UTF     | publisher
+    Long    | isbn10
+    Int     | publishingYear
+    Float   | price
+    Bool    | own
+    Short   | authorsCount
+
+    for i in bookCount
+        --------------
+        UTF     | Author
+        --------------
+    --------------
+----------------------------
+
